@@ -1,0 +1,12 @@
+NODE_ENV=development
+PORT=3000
+DATABASE=mongodb+srv://aliobeidat:SHrahneon@69@cluster0.3edp5c3.mongodb.net/natours?retryWrites=true&w=majority
+DATABASE_PASSWORD=SHrahneon@69
+JWT_SECRET=hi-my-name-aliobeidat-my-secret-password
+JWT_EXPIRATION=1d
+JWT_COOKIE_EXPIRATION=1
+
+EMAIL_USERNAME =b7bb8fd8f6b265
+EMAIL_PASSWORD =88b43da01a2c64
+EMAIL_HOST =smtp.mailtrap.io
+EMAIL_PORT =2525
