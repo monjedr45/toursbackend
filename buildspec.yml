@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - apt-get update
+      - curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+      - apt-get install -y nodejs 
+      - apt-get update 
+  build:
+    commands:
+      - npm install --production
+artifacts:
+  type: zip
+  files:
+    - '**/*'
